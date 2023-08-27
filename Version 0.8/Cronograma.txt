@@ -1,0 +1,79 @@
+N entendi de primeiro🚫✅
+assisti 2 vezes para entender 🚫''✅
+assisti 3 vezes para entender 🚫'''✅
+
+Entendi de primeira✅
+
+
+Dataset para controle das ações
+04:10✅
+
+
+Conectando as primeiras ações
+03:56✅
+
+
+Alterando o estado da apliação conforme a ação
+05:03✅
+
+
+Atualizando o display do contador
+07:09✅
+
+
+Estruturando o countdown
+05:40✅
+
+26' de conteudo  pratica 3h
+
+
+
+
+
+VERSION 0.8
+
+LEMBRAR DE TIRAR O PRINT DE TODAS AS AULAS COM AQUELAS ANOTAÇÕES FEITO EM CADA UM DOS VIDEOS 
+
+Lógica do countdown
+07:41✅
+
+
+Alterando contéudo de uma tag com contenteditable
+01:02✅
+
+
+Limpando o conteúdo de uma tag com evento de focus
+01:37✅
+
+
+Aceitando apenas números no contador
+03:39✅
+
+
+Finalizando a escolha dos minutos do temporizador
+03:49✅
+
+
+
+
+
+1'28"
+
+
+
+
+
+
+Adicionando sons na aplicação
+06:15
+
+
+FocusTimer finalizado
+02:06
+
+
+Quiz 01
+
+FocusTimer
+
+Autoavaliação

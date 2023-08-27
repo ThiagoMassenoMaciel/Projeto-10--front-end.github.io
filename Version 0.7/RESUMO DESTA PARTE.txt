@@ -1,0 +1,34 @@
+Saber qual butão esta sendo clicado quando o usuario faz o event click na div pai 
+
+event.target   isso aponta para o elemento html clicado 
+event.currentTarget   mesma coisa
+ quando em um fluxo de code é encontrado o return o script para de executar 
+
+
+html 
+div pai 
+    filho  botão 1    data-nomeESCOLHIDO="valor"
+    filho  botão 2
+    filho  botão 3
+    filho  botão 4
+div pai 
+
+
+acessar o valor data-set do html no js 
+
+event.target.nomeESCOLHIDO    
+
+
+add new file into the FocusTimer called   
+
+timer.js 
+assignment values to span into the functions 
+
+elements.js DOM 
+anchor to display minutes uddated 
+anchor to display seconds uddated 
+
+
+##########
+
+

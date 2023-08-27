@@ -1,0 +1,9 @@
+reacts each button linked by dataset and name functions by actions.js file
+
+and 
+
+sinalize this on the object state 
+
+Existe um evento generalizado 
+        com reações especificas para botões filhos especificos
+            que alteram o estado da aplicação

@@ -1,0 +1,5 @@
+Why doesn't work the buttons control when the light mode are active ?
+
+
+bug this actual version 0.8.1
+    ERROR cuz the user couldn't choose not a number(letters points) when he decide to change the minutes

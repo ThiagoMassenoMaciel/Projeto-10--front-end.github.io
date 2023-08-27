@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+.screen_read_only{
+  width: 1px;
+  height: 1px;
+  position: absolute;
+
+  overflow: hidden;
+  appearance: none;
+  
+  border: 0;
+
+  margin: -1px;
+  padding: 0;
+
+}
+
+:root{
+  font-size: 1.6rem;
+
+  --hue: 194;
+  --bg-color: hsl( var(--hue) , 5% , 7% );
+  --text-color: hsl(var(--hue), 40% , 98% , 1);
+  --primary-color: hsl(var(--hue), 100% , 63%);
+  --controls-bg-color: hsl(var(--hue), 0%, 14%);
+
+  --button-secondary: hsl(var(--hue), 40% , 98% , 1);
+
+  font-size: clamp( 40% , 1% + 2vh , 62.5%  );
+/*
+  if clamp(  ,this calc results,  )  
+  results < = 40% keep this lenght min font-size 40%
+  if "                            "  
+  results > = 62.5% keep this lenght max font-size 62.5%
+
+*/
+
+}
+
+/* dark mode */
+html.light{
+  --text-color: hsl( var(--hue) , 5% , 7% );
+  --bg-color: hsl(var(--hue), 40% , 98%);
+
+}
+
+/* Swap color togle-mode*/
+/* to changed the color icons must define color*/
+#toggle-mode{
+  position: absolute;
+  right: 3.2rem;
+  top: 3.2rem;
+
+  font-size: 3.2rem ;
+  line-height: 0;
+
+  color:  var(--text-color);
+}
+
+/* Swap diferents icons each changed light background togle-mode*/
+
+html.light .ph-moon,
+html:not(.light) .ph-sun{
+  display : none;
+}
+
+body{
+  background-color: var(--bg-color);
+  color: var(--text-color);
+
+  display: grid;
+  height: 100vh;
+  place-content: center;
+}
+
+#app{
+  display: grid;
+  justify-items: center;
+}
+
+.flex{
+  display: none;
+}
+
+#timer{
+  text-align: center;
+  font-size: 9.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: sans-serif;  
+
+
+}
+
+#controls{
+  margin-top: 1.6rem;
+  padding: 2.2rem 4rem;
+
+  align-items: center;
+
+  display: flex;
+  flex-direction: row;
+  gap: 1.6rem;
+  
+  text-align: center;
+  justify-content: center;
+
+  background-color:#242424;
+
+  border-radius: 999.9rem;
+
+}
+
+
+
+button{
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 0;
+
+  cursor: pointer;
+  font-size: 6.4rem;
+}
+
+.secondary_color{
+  color: var(--button-secondary);
+}
+
+/*controls*/
+.running .ph-play-circle,
+.running .ph-timer,
+.musicON .ph-speaker-none,
+html:not(.running) .ph-pause-circle,
+html:not(.running) .ph-stop-circle,
+html:not(.musicON) .ph-speaker-high{
+  display: none;
+}

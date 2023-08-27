@@ -1,0 +1,77 @@
+Saber qual butão esta sendo clicado quando o usuario faz o event click na div pai 
+
+event.target   isso aponta para o elemento html clicado 
+event.currentTarget   mesma coisa
+ quando em um fluxo de code é encontrado o return o script para de executar 
+
+
+html 
+div pai 
+    filho  botão 1    data-nomeESCOLHIDO="valor"
+    filho  botão 2
+    filho  botão 3
+    filho  botão 4
+div pai 
+
+
+acessar o valor data-set do html no js 
+
+event.target.nomeESCOLHIDO    
+
+
+add new file into the FocusTimer called   
+
+timer.js 
+assignment values to span into the functions 
+
+elements.js DOM 
+anchor to display minutes uddated 
+anchor to display seconds uddated 
+
+
+########## resumo version 0.8
+timer.js 
+Ele colocou um reset quando terminou de contar e 
+actions.js
+dentro da action reset ele colocou para retornar os numeros rpo usuario que ele colocou inicialmente 
+
+
+for undertand this part delete the line 40 from file actions.js
+
+I still dont understand why after i click on the button ([]) oat moment are running 
+how could the counter start to stop counted of numbers ?
+
+------------------------
+
+actions.js
+into the action functions  set 
+
+// click on the button set and change the span minutes value 
+
+    el.min.setAttribute('contenteditable', true)
+
+    essa aula 
+            Alterando contéudo de uma tag com contenteditable
+
+            Descrição
+            Na aula, aprenderemos a utilizar o atributo contenteditable para permitir que o usuário edite o conteúdo de uma tag específica. O objetivo é proporcionar uma forma interativa para o usuário personalizar o tempo exibido no contador.
+
+            Durante a aula, faremos modificações no arquivo actions.js.
+
+            No arquivo actions.js, adicionaremos a função set para habilitar a edição do conteúdo dos minutos. Utilizaremos o método setAttribute para definir o atributo contenteditable como true na tag dos minutos, possibilitando que o usuário possa editar esse valor.
+
+            O resultado dessa aula é a adição da função set no arquivo actions.js, que habilita a edição do conteúdo dos minutos por meio do atributo contenteditable.
+
+            Essa modificação permite que o projeto FocusTimer ofereça a funcionalidade de edição interativa do tempo, proporcionando ao usuário a capacidade de personalizar os valores exibidos no contador de forma flexível.
+
+// after you clicked on the button set become textContent into span empty for user type new minutes 
+Limpando o conteúdo de uma tag com evento de focus
+    Nesta aula, aprendemos a limpar o conteúdo de uma tag quando ela recebe o foco do usuário. Fizemos alterações nos arquivos actions.js, events.js e index.js.
+
+    No arquivo actions.js, adicionamos o método focus() à função set() para que o campo dos minutos receba automaticamente o foco quando ativado.
+
+    No arquivo events.js, criamos a função setMinutes() para adicionar um ouvinte de evento de foco à tag dos minutos. Quando o campo recebe o foco, o conteúdo existente é limpo, deixando-o em branco para que o usuário possa inserir um novo valor.
+
+    No arquivo index.js, chamamos a função setMinutes() na função start() para registrar o evento de foco e limpar o conteúdo dos minutos.
+
+    Essas modificações permitem uma melhor experiência do usuário, tornando mais fácil a inserção de novos valores nos minutos, pois o conteúdo existente é apagado automaticamente quando o campo é ativado.

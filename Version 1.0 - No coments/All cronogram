@@ -1,0 +1,771 @@
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+||
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+New code learned
+
+# Putting Audios 
+        audio.bg_audio.play()
+        return
+                audio.bg_audio.pause()
+                        <audio src="path" controls = id seu paiDIV ></audio>
+                                export const bg_audio     = new Audio('./assets/bg-Audio.mp3')
+                                        bg_audio.loop = true
+                                                
+
+#//Recursão setTimeout
+     testar o file exampleSetTIMEoutRECURSIVE.js   
+     \___simula o que foi usado dentro da actions depois q a pessoa aperta no botão control do play
+
+#// setTimeout ( wait execute this function at parameter¹ , after delay milisegundos  = 1segundo / 1000)
+                                color
+
+#Format display format numbers always two algorithms 
+        String(number).padStart(quantity_of_spaces_become_PREENCHIDO," numeros á esquerda se caso faltar")
+        EX: String(number).padStart(2, "0")
+
+background color : transparent 
+
+clamp(min size , calc , max size )
+
+
+
+
+I dont  understand the line 22 ate the file events.js  SIMPLEexempleUSINDdataset
+
+
+States of aplication is the especific features on specific time momentum 
+
+Create other module to represente the states one object with some properties 
+export { atributes of object }
+
+add values at some atributes into the object thought module main 
+        export module state to module main 
+
+               and pass args per value to a properties
+               like :  import Object from 'source'
+                       some function(Parameters){
+                            Object.property = Parameters ;
+                        }
+
+i must to make more than 52minutes today 
+
+ler todo html
+executar en sequencia 
+                        main             inicia chamando o start (da próx file)
+                        index           assignament per parameter + register te log of each clicked button 
+                                events
+                        state 
+
+
+eventos dos clicks 
+this section talks about this:
+
+----------> Registrando eventos dos botões
+New Code 
+        modularizing all things diferent that can be grow after 
+        1 module for 
+                    : variables connection DOM 
+                    : function that assignment Events to certain variable  
+                                - show what TARGET was clicked
+                    : 
+        console.log(event.target) ---> it will display on a console the button tag was clicked 
+----------> Dataset para controle das ações
+
+
+        capturating the events and just display 
+        that specific event on a tag that have 
+        that specific dataset
+
+        and 
+
+        show a value into eacth dataset 
+                                        #each one of them butons tag data setted as 
+                                                                data-action="ToggleRunning"
+                                                                data-action="ToggleRunning"
+                                                                data-action="set"
+                                                                data-action="reset"
+                                                                data-action="toggleMusic"
+                                                                data-action="toggleMusic"
+        Used to identify each button with a data set 
+
+        into the tag element html  button 
+        
+                        data-yourNAMEchoose="NameWillAtribuite if the event was to click on this  button"
+
+                        data-action = "toggleRunning"  into the tag button play
+
+
+                                #more details
+                                                // target its like the element from html that have some event added
+
+                                                /* it means  when you decide to display the value from atribute 
+                                                                                                        action                              
+                                                                                        INTO THE    __/
+                                                                                dataset
+                                                                        INTO THE  ___/
+                                                        target___/
+                                                e   INTO THE___/
+
+                                                AFTER you KNOW THE VALUE YOU PUT iN THE data-action ="HTML INTO THE TAG " 
+                                                        if was clicked a tag on a screen by user that have  data-action ="SomeValue" 
+                                                                show the SomeValue
+                                                        if not 
+                                                                show the undefined
+                                                                stop the function with a code 
+                                                                return
+
+
+                                                */
+
+04:10
+
+  DOM    cirar um link para o javaScript mexer no html 
+
+  Event    click 
+            quando a pessoa clicar em uma das tags 
+              que tem dentro da div e que é linkada pelo dom 
+              
+              condição 
+
+Evento acontecer da div pai 
+
+Reação somente quando for no elemento filho com tal propriedade dataset 
+
+
+------------------>Conectando as primeiras ações
+03:56
+
+16:35-
+
+
+acssessing diferents ways functions by properties from objects 
+
+
+OBJECTO.PropertyFunction()
+
+OBJECTO["PropertyFunction"]()
+
+EXPLAINING THE SRC/FUCUSTIMER/  modules
+
+
+main ___                                                                                           -> Executar do import simples o toggle
+        |chama
+               toggle-mode.js ___                                                                  -> trocar a cor do fundo 
+                                 |chama 
+                                        events.js___                                               -> reação personalizada ao expecifico click     
+                                                    |chama 
+                                                           actions.js                              -> o que fazer ao clicar no botão persolalizado
+                                                           elements.js                             -> ancora com o botão no html 
+
+                                                           actions.js chama_____|state.js          ->Para informar estado da aplicação
+                                                                                                   (característica da aplicação em tempo real )
+CHOOSING TIME THOUGHT ASSIGNMENT PARAMETER 
+        main.js  calling function by external file ------->index.js   chama_____|state.js          -> Change State -main -index -state 
+                                                           
+
+
+
+main ___                                                                                           -> Executar do import simples o toggle
+        |chama
+               toggle-mode.js ___                                                                  -> trocar a cor do fundo 
+                                 |chama 
+                                        events.js___                                               -> reação personalizada ao expecifico click     
+                                                    |chama 
+                                                           actions.js                              -> o que fazer ao clicar no botão persolalizado
+                                                           elements.js                             -> ancora com o botão no html 
+        e
+                                                           actions.js chama_____|state.js          ->Para informar estado da aplicação
+                                                                                                   (característica da aplicação em tempo real )
+    ___
+       |chama
+              index.js   chama_____|state.js                                                       -> Change State -main -index -state 
+                         chama_____|events.js                                                       -> Acess registersControl -main -index -events funcao  
+                                                           
+
+
+
+
+EVERYTIME you the user make one action it will change the state of aplication 
+
+
+//NEW NOTES 
+
+35' conteudo  2h40' de prática 
+
+Estilizando o relógio e botões
+03:48✅
+
+
+CSS not para remover botões da tela
+04:00✅
+
+
+Estilos para o light mode
+05:23✅
+
+
+Adicionando acessibilidade aos botões
+04:04✅
+
+
+Adicionando a lógica do ligh mode
+08:21✅
+
+
+Construindo o módulo FocusTimer
+03:04✅
+
+
+Criando o estado da aplicação
+02:41✅
+
+
+Registrando eventos dos botões
+04:03✅
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+||
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+¹Find-the-first-Data-toAll-Path-Going-Trough
+Tricks TO MKE THE COUNTDOWN
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Saber qual butão esta sendo clicado quando o usuario faz o event click na div pai 
+
+event.target   isso aponta para o elemento html clicado 
+event.currentTarget   mesma coisa
+ quando em um fluxo de code é encontrado o return o script para de executar 
+
+
+html 
+div pai 
+    filho  botão 1    data-nomeESCOLHIDO="valor"
+    filho  botão 2
+    filho  botão 3
+    filho  botão 4
+div pai 
+
+
+acessar o valor data-set do html no js 
+
+event.target.nomeESCOLHIDO    
+
+
+add new file into the FocusTimer called   
+
+timer.js 
+assignment values to span into the functions 
+
+elements.js DOM 
+anchor to display minutes uddated 
+anchor to display seconds uddated 
+
+
+########## resumo version 0.8
+timer.js 
+Ele colocou um reset quando terminou de contar e 
+actions.js
+dentro da action reset ele colocou para retornar os numeros rpo usuario que ele colocou inicialmente 
+
+
+for undertand this part delete the line 40 from file actions.js
+
+I still dont understand why after i click on the button ([]) oat moment are running 
+how could the counter start to stop counted of numbers ?
+
+######### resumo version 0.9 
+new file with sonds 
+
+audio with the user click on button play 
+
+
+Adicionando sons na aplicação
+
+                VER TÓPICOS RELACIONADOS
+
+                Descrição
+                Nessa aula , implementamos a funcionalidade de reprodução de sons para melhorar a experiência do usuário. Adicionamos três arquivos de áudio à pasta "assets" e importamos o módulo "sounds.js" para controlar os sons na aplicação. Modificamos as funções existentes para reproduzir os sons em momentos específicos, como ao pressionar botões e quando o temporizador chega a zero.
+
+                Essas alterações tornam a aplicação mais interativa e envolvente para o usuário.
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+N entendi de primeiro🚫✅
+    assisti 2 vezes para entender 🚫''✅
+    assisti 3 vezes para entender 🚫'''✅
+
+    Entendi de primeira✅
+
+
+    Dataset para controle das ações
+    04:10✅
+
+
+    Conectando as primeiras ações
+    03:56✅
+
+
+    Alterando o estado da apliação conforme a ação
+    05:03✅
+
+
+    Atualizando o display do contador
+    07:09✅
+
+
+    Estruturando o countdown
+    05:40✅
+
+    26' de conteudo  pratica 3h
+
+
+
+
+
+    VERSION 0.8
+
+    LEMBRAR DE TIRAR O PRINT DE TODAS AS AULAS COM AQUELAS ANOTAÇÕES FEITO EM CADA UM DOS VIDEOS 
+
+    Lógica do countdown
+    07:41✅
+
+
+    Alterando contéudo de uma tag com contenteditable
+    01:02
+
+
+    Limpando o conteúdo de uma tag com evento de focus
+    01:37
+
+
+    Aceitando apenas números no contador
+    03:39
+
+
+    Finalizando a escolha dos minutos do temporizador
+    03:49
+
+
+    Adicionando sons na aplicação
+    06:15
+
+
+    FocusTimer finalizado
+    02:06
+
+
+    Quiz 01
+
+    FocusTimer
+
+    Autoavaliação
+
+
+Stage 05  M1, M2, M3 
+
+Conteúdo do módulo 1
+Jogo da adivinhação
+13 aulas
+01:21:36
+
+
+Clique para marcar/desmarcar aula como vista
+            Introdução - Projeto Jogo da Adivinhação
+            00:52
+
+
+            Figma do Projeto
+
+            Iniciando HTML e CSS
+            08:38
+
+
+            Fontes e Textos
+            04:17
+
+
+            Input e Button
+            03:45
+
+
+            Finalizando telas
+            04:41
+
+
+            Introdução a DOM
+            05:15
+
+
+            PDF - Introdução a DOM
+
+            Manipulando a DOM
+            07:52
+
+
+            PDF - Manipulando elementos
+
+            Capturando valor do formulário ao clicar no botão
+            05:45
+
+
+            Aplicando a lógica
+            07:40
+
+
+            Eventos
+            07:17
+
+
+            PDF - Eventos
+
+            Aplicando eventos e callbacks
+            09:57
+
+
+            Revisão
+            05:36
+
+
+            Refatorando e algumas funcionalidades a mais
+            10:01
+
+
+            Biscoito da Sorte - Extra
+
+
+Projeto IMC    20 aulas 
+02:08:49                Introdução
+                        01:03
+
+
+                        Figma do Projeto
+
+                        Iniciando o projeto
+                        03:58
+
+
+                        Estilizando o cartão
+                        06:04
+
+
+                        Configurando fontes e cores
+                        06:41
+
+
+                        Criando o HTML do formulário
+                        04:54
+
+
+                        Aplicando estilos ao formulário
+                        06:14
+
+
+                        Finalizando estilos do formulário
+                        06:39
+
+
+                        Criando o modal
+                        07:41
+
+
+                        Construindo a caixa de alerta de erro
+                        04:31
+
+
+                        Iniciando o JavaScript com o evento de submit
+                        09:20
+
+
+                        Apresentando o resultado do IMC no popup
+                        10:08
+
+
+                        Estruturando os dados do Modal
+                        06:56
+
+
+                        ES6 Modules
+                        18:33
+
+
+                        PDF - ES6 Modules
+
+                        Cheat Sheet - Import/Export
+
+                        Modularizando o Modal popup
+                        07:27
+
+
+                        Fechando modal pelo teclado
+                        05:34
+
+
+                        Validando dados
+                        06:54
+
+
+                        Modularizando a caixa de alerta de erro
+                        04:32
+
+
+                        Modularizar as funções utilitárias
+                        01:43
+
+
+                        Refatorando a função de submit, aplicando regras de Clean Code
+                        06:42
+
+
+                        Desafio
+                        03:15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Focus Timer 24 aulas
+01:44:34            Apresentação do projeto
+                    03:51
+
+
+                    Figma - Focus Timer
+
+                    Estruturando o HTML
+                    05:10
+
+
+                    Adicionando ícones
+                    03:18
+
+
+                    Iniciando os estilos e variáveis
+                    04:44
+
+
+                    Estilizando o relógio e botões
+                    03:48
+
+
+                    CSS not para remover botões da tela
+                    04:00
+
+
+                    Estilos para o light mode
+                    05:23
+
+
+                    Adicionando acessibilidade aos botões
+                    04:04
+
+
+                    Adicionando a lógica do ligh mode
+                    08:21
+
+
+                    Construindo o módulo FocusTimer
+                    03:04
+
+
+                    Criando o estado da aplicação
+                    02:41
+
+
+                    Registrando eventos dos botões
+                    04:03
+
+
+                    Dataset para controle das ações
+                    04:10
+
+
+                    Conectando as primeiras ações
+                    03:56
+
+
+                    Alterando o estado da apliação conforme a ação
+                    05:03
+
+
+                    Atualizando o display do contador
+                    07:09
+
+
+                    Estruturando o countdown
+                    05:40
+
+
+                    Lógica do countdown
+                    07:41
+
+
+                    Alterando contéudo de uma tag com contenteditable
+                    01:02
+
+
+                    Limpando o conteúdo de uma tag com evento de focus
+                    01:37
+
+
+                    Aceitando apenas números no contador
+                    03:39
+
+
+                    Finalizando a escolha dos minutos do temporizador
+                    03:49
+
+
+                    Adicionando sons na aplicação
+                    06:15
+
+
+                    FocusTimer finalizado
+                    02:06
+
+
+                    Quiz 01
+
+                    FocusTimer
+
+                    Autoavaliação

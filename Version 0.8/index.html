@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<!--  class=" running musicON"  -->
+
+<!--  the site at the begining starts with DARK MODE  class="light" --  For this reason we need to initialize one variable to represente boolean that dark background -->
+
+<html lang="pt-br" class="" >
+<head>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>CreatingOBJECTtoAPPLICATION</title>
+
+    <link rel="shortcut icon" href="./assets/favicon.svg">
+
+    <link rel="stylesheet" href="./style.css" />
+    <!-- to changed the color icons must define color  -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <script src="./src/main.js" type="module" defer></script>
+
+</head>
+<body>
+
+  <div id="App">
+    <button id="toggle-mode" >
+
+      <span class="screen_read_only">
+       Ativado dark mode
+      </span>  
+
+      <i class="ph-bold ph-sun "></i>
+      <i class="ph-bold ph-moon"></i>
+    </button>
+
+    <section id="timer">
+      <span id="minutes">00</span>
+      <span>:</span>
+      <span id="seconds">00</span>
+    </section>
+
+    <section id="controls">
+      <button 
+      data-action="toggleRunning"
+      class="ph ph-play-circle">
+        <span class="screen_read_only">Iniciar o contador</span>
+      </button>
+
+      <button 
+      data-action="toggleRunning"
+      class="ph ph-pause-circle">
+        <span class="screen_read_only">Pausar o tempo no contador</span>
+      </button>
+
+      <button 
+      data-action="set"
+      class="ph ph-timer secondary_color">
+        <span class="screen_read_only">Alterar a quantidade em minutos do contador</span>
+      </button>
+
+      <button 
+      data-action="reset"
+      class="ph ph-stop-circle secondary_color">
+        <span class="screen_read_only">Reiniciar o contador</span>
+      </button>
+
+      <button 
+      data-action="toggleMusic"
+      class="ph ph-speaker-none secondary_color">
+        <span class="screen_read_only">Adicionar Musica</span>
+      </button>
+
+      <button 
+      data-action="toggleMusic"
+      class="ph ph-speaker-high">
+        <span class="screen_read_only"> Parar musica </span>
+     </button>
+    </section>
+  </div>
+
+</body>
+</html>

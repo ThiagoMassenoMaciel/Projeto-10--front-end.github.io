@@ -1,0 +1,58 @@
+Saber qual butão esta sendo clicado quando o usuario faz o event click na div pai 
+
+event.target   isso aponta para o elemento html clicado 
+event.currentTarget   mesma coisa
+ quando em um fluxo de code é encontrado o return o script para de executar 
+
+
+html 
+div pai 
+    filho  botão 1    data-nomeESCOLHIDO="valor"
+    filho  botão 2
+    filho  botão 3
+    filho  botão 4
+div pai 
+
+
+acessar o valor data-set do html no js 
+
+event.target.nomeESCOLHIDO    
+
+
+add new file into the FocusTimer called   
+
+timer.js 
+assignment values to span into the functions 
+
+elements.js DOM 
+anchor to display minutes uddated 
+anchor to display seconds uddated 
+
+
+########## resumo version 0.8
+timer.js 
+Ele colocou um reset quando terminou de contar e 
+actions.js
+dentro da action reset ele colocou para retornar os numeros rpo usuario que ele colocou inicialmente 
+
+
+for undertand this part delete the line 40 from file actions.js
+
+I still dont understand why after i click on the button ([]) oat moment are running 
+how could the counter start to stop counted of numbers ?
+
+######### resumo version 0.9 
+new file with sonds 
+
+audio with the user click on button play 
+
+
+Adicionando sons na aplicação
+
+                VER TÓPICOS RELACIONADOS
+
+                Descrição
+                Nessa aula , implementamos a funcionalidade de reprodução de sons para melhorar a experiência do usuário. Adicionamos três arquivos de áudio à pasta "assets" e importamos o módulo "sounds.js" para controlar os sons na aplicação. Modificamos as funções existentes para reproduzir os sons em momentos específicos, como ao pressionar botões e quando o temporizador chega a zero.
+
+                Essas alterações tornam a aplicação mais interativa e envolvente para o usuário.
+

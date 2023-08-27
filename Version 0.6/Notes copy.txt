@@ -1,0 +1,206 @@
+New code learned
+
+
+#Format display format numbers always two algorithms 
+        String(number).padStart(quantity_of_spaces_become_PREENCHIDO," numeros á esquerda se caso faltar")
+        EX: String(number).padStart(2, "0")
+
+background color : transparent 
+
+clamp(min size , calc , max size )
+
+
+
+
+I dont  understand the line 22 ate the file events.js  SIMPLEexempleUSINDdataset
+
+
+States of aplication is the especific features on specific time momentum 
+
+Create other module to represente the states one object with some properties 
+export { atributes of object }
+
+add values at some atributes into the object thought module main 
+        export module state to module main 
+
+               and pass args per value to a properties
+               like :  import Object from 'source'
+                       some function(Parameters){
+                            Object.property = Parameters ;
+                        }
+
+i must to make more than 52minutes today 
+
+ler todo html
+executar en sequencia 
+                        main             inicia chamando o start (da próx file)
+                        index           assignament per parameter + register te log of each clicked button 
+                                events
+                        state 
+
+
+eventos dos clicks 
+this section talks about this:
+
+----------> Registrando eventos dos botões
+New Code 
+        modularizing all things diferent that can be grow after 
+        1 module for 
+                    : variables connection DOM 
+                    : function that assignment Events to certain variable  
+                                - show what TARGET was clicked
+                    : 
+        console.log(event.target) ---> it will display on a console the button tag was clicked 
+----------> Dataset para controle das ações
+
+
+        capturating the events and just display 
+        that specific event on a tag that have 
+        that specific dataset
+
+        and 
+
+        show a value into eacth dataset 
+                                        #each one of them butons tag data setted as 
+                                                                data-action="ToggleRunning"
+                                                                data-action="ToggleRunning"
+                                                                data-action="set"
+                                                                data-action="reset"
+                                                                data-action="toggleMusic"
+                                                                data-action="toggleMusic"
+        Used to identify each button with a data set 
+
+        into the tag element html  button 
+        
+                        data-yourNAMEchoose="NameWillAtribuite if the event was to click on this  button"
+
+                        data-action = "toggleRunning"  into the tag button play
+
+
+                                #more details
+                                                // target its like the element from html that have some event added
+
+                                                /* it means  when you decide to display the value from atribute 
+                                                                                                        action                              
+                                                                                        INTO THE    __/
+                                                                                dataset
+                                                                        INTO THE  ___/
+                                                        target___/
+                                                e   INTO THE___/
+
+                                                AFTER you KNOW THE VALUE YOU PUT iN THE data-action ="HTML INTO THE TAG " 
+                                                        if was clicked a tag on a screen by user that have  data-action ="SomeValue" 
+                                                                show the SomeValue
+                                                        if not 
+                                                                show the undefined
+                                                                stop the function with a code 
+                                                                return
+
+
+                                                */
+
+04:10
+
+  DOM    cirar um link para o javaScript mexer no html 
+
+  Event    click 
+            quando a pessoa clicar em uma das tags 
+              que tem dentro da div e que é linkada pelo dom 
+              
+              condição 
+
+Evento acontecer da div pai 
+
+Reação somente quando for no elemento filho com tal propriedade dataset 
+
+
+------------------>Conectando as primeiras ações
+03:56
+
+16:35-
+
+
+acssessing diferents ways functions by properties from objects 
+
+
+OBJECTO.PropertyFunction()
+
+OBJECTO["PropertyFunction"]()
+
+EXPLAINING THE SRC/FUCUSTIMER/  modules
+
+
+main ___                                                                                           -> Executar do import simples o toggle
+        |chama
+               toggle-mode.js ___                                                                  -> trocar a cor do fundo 
+                                 |chama 
+                                        events.js___                                               -> reação personalizada ao expecifico click     
+                                                    |chama 
+                                                           actions.js                              -> o que fazer ao clicar no botão persolalizado
+                                                           elements.js                             -> ancora com o botão no html 
+
+                                                           actions.js chama_____|state.js          ->Para informar estado da aplicação
+                                                                                                   (característica da aplicação em tempo real )
+CHOOSING TIME THOUGHT ASSIGNMENT PARAMETER 
+        main.js  calling function by external file ------->index.js   chama_____|state.js          -> Change State -main -index -state 
+                                                           
+
+
+
+main ___                                                                                           -> Executar do import simples o toggle
+        |chama
+               toggle-mode.js ___                                                                  -> trocar a cor do fundo 
+                                 |chama 
+                                        events.js___                                               -> reação personalizada ao expecifico click     
+                                                    |chama 
+                                                           actions.js                              -> o que fazer ao clicar no botão persolalizado
+                                                           elements.js                             -> ancora com o botão no html 
+        e
+                                                           actions.js chama_____|state.js          ->Para informar estado da aplicação
+                                                                                                   (característica da aplicação em tempo real )
+    ___
+       |chama
+              index.js   chama_____|state.js                                                       -> Change State -main -index -state 
+                         chama_____|events.js                                                       -> Acess registersControl -main -index -events funcao  
+                                                           
+
+
+
+
+EVERYTIME you the user make one action it will change the state of aplication 
+
+
+//NEW NOTES 
+
+35' conteudo  2h40' de prática 
+
+Estilizando o relógio e botões
+03:48✅
+
+
+CSS not para remover botões da tela
+04:00✅
+
+
+Estilos para o light mode
+05:23✅
+
+
+Adicionando acessibilidade aos botões
+04:04✅
+
+
+Adicionando a lógica do ligh mode
+08:21✅
+
+
+Construindo o módulo FocusTimer
+03:04✅
+
+
+Criando o estado da aplicação
+02:41✅
+
+
+Registrando eventos dos botões
+04:03✅
